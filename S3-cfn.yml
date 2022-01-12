@@ -3,4 +3,5 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
 Properties:    
-    VersioningConfiguration: 'true'
+    VersioningConfiguration: 
+      'Status': 'enabled'
