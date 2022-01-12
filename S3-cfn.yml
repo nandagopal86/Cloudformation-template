@@ -4,4 +4,4 @@ Resources:
     Type: 'AWS::S3::Bucket'
 Properties:    
     VersioningConfiguration: 
-      'Status': 'enabled'
+      'Status': 'Enabled'
