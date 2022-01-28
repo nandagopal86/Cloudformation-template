@@ -1,8 +1,8 @@
-AWSTemplateFormatVersion: "2010-09-09"
+AWSTemplateFormatVersion: '2010-09-09'
 Resources:
   S3Bucket:
-    Type: 'AWS::S3::Bucket
-    BucketName: 's3demo-codepipeline-s3bucket-9gi5hflbqiac'
-Properties:    
-    VersioningConfiguration: 
-      Status: 'Enabled'
+    Type: AWS::S3::Bucket
+Outputs:
+  BucketName:
+    Value: !Ref 'S3Bucket'
+    Description: Name of the sample Amazon S3 bucket.
